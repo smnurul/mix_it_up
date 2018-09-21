@@ -1,0 +1,22 @@
+img{
+    max-width: 100%
+}
+.mix_it_trigger ul {
+  margin-top: 10px;
+  text-align: center;
+}
+.mix_it_trigger ul li {
+  display: inline-block;
+}
+.mix_it_trigger ul li button {
+  background: none repeat scroll 0 0 yellow;
+  border: medium none;
+  border-radius: 8px;
+  color: blue;
+  height: 36px;
+  width: 94px;
+}
+.all-mix-content {
+  background: none repeat scroll 0 0 rgba(0, 255, 0, 0.4);
+  height: 526px;
+}

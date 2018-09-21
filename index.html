@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>my design</title>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+	<!-- MAIN CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+		<header id="header-area">
+		
+		</header>
+		
+		<section id="mix_it_up_test">
+		    <div class="container">
+		        <div class="row">
+		          <div class="col-md-12">
+		                <div class="mix_it_trigger">
+		                <ul>
+		                   <li><button type="button" data-filter="all">All</button></li>
+                           <li> <button type="button" data-filter=".category-a">Category A</button></li>
+                           <li> <button type="button" data-filter=".category-b">Category B</button></li>
+                           <li> <button type="button" data-filter=".category-c">Category C</button></li>
+                           <li> <button type="button" data-filter=".nurul">Nurul</button></li>
+                           <li> <button type="button" data-filter="none">none</button></li>
+		                </ul>
+		                
+		            </div>
+		          </div>
+		            <div class="row">
+		                <div class="col-md-12">
+		                    <div class="all-mix-content">
+								<div class="col-md-3"><div class="mix category-a" data-order="1"><img src="img/mim.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix category-b" data-order="2"><img src="img/mim.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix category-b category-c" data-order="3"><img src="img/mim.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix category-a category-c" data-order="4"><img src="img/mim.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix category-a category-d" data-order="4"><img src="img/mim.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix category-a category-d" data-order="4"><img src="img/mim.jpg" alt=""></div></div>
+								
+								<div class="col-md-3"><div class="mix nurul" data-order="4"><img src="img/nurul1.jpg" alt=""></div></div>
+								<div class="col-md-3"><div class="mix nurul" data-order="4"><img src="img/nurul2.jpg" alt=""></div></div>
+								
+							
+							</div>
+		                </div>
+		            </div>
+		        </div>
+		        
+		    </div>
+		  
+		</section>
+		
+		
+		<footer class="footer-area">
+		
+		</footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
